@@ -1,0 +1,13 @@
+micronaut:
+  application:
+    name: mnTestGraphNeo
+neo4j:
+  uri: bolt://localhost:7687
+  maxConnectionPoolSize: 50
+  connectionAcquisitionTimeout: 30s
+  username: neo4j
+  password: test
+netty:
+  default:
+    allocator:
+      max-order: 3
